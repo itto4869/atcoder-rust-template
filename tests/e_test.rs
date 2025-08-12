@@ -7,7 +7,7 @@ fn run_all_cases(dir: &str, bin_name: &str) {
         return;
     }
     for entry in fs::read_dir(dir).unwrap() {
-        let path  entry.unwrap().path();
+        let path = entry.unwrap().path();
         if path.extension().and_then(|s| s.to_str()) == Some("in") {
             let stem = path.file_stem().unwrap().to_string_lossy();
             let input = fs::read_to_string(&path).unwrap();
