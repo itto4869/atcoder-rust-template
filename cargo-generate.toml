@@ -1,0 +1,5 @@
+[template]
+
+[placeholders]
+project-name = { type = "string", prompt = "Project name", default = "atcoder-project" }
+author = { type = "string", prompt = "Author", default = "{{ username }}" }
