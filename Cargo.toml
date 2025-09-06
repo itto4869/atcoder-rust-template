@@ -6,6 +6,7 @@ authors = ["{{ author }}"]
 
 [dependencies]
 proconio = "0.4.5"
+petgraph = "0.6.3"
 
 [dev-dependencies]
 assert_cmd = "2"
