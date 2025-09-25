@@ -8,6 +8,7 @@ authors = ["{{ author }}"]
 proconio = "0.4.5"
 petgraph = "0.6.3"
 ac-library-rs = "0.1.1"
+num-bigint = "0.4.3"
 
 [dev-dependencies]
 assert_cmd = "2"
